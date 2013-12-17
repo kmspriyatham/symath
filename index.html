@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Symath
+	</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/index.css"/>
+</head>
+<body>
+	<div class="header">
+		<header>
+			<div class="app-name">
+				<a href="#home" id="link-home2">Symath<a>
+			</div>
+			<div class="menu" text-align="center">
+				<ul>
+					<li><a href="#home" id="link-home">Home</a></li>
+					<li><a href="#results2" id="link-results2">Calculate</a></li>
+					<li><a href="#slates" id="link-slates">My Sheets</a></li>
+					<li><a href="#help" id="link-help">Help</a></li>
+					<li><a href="#credits" id="link-credits">Credits</a></li>
+				</ul>
+			</div>
+			<div class="account">
+				<ul>
+					<li><a href="/">{{name}}</a></li>
+					<li><a href="{{logout}}">logout</a></li>
+				</ul>
+			</div>
+		</header>
+	</div>
+	<div class="home" id="home">
+		<h2>Welcome!</h2>
+		<p><img src="/images/sq_plus.png" id="plus_img" align="right"></img>
+			<img src="/images/eq_sign.jpeg" id="eq_img" align="right"></img>
+			kjggbfjafjlanaklvj hiahai;hfaklfhaklhvalhakhailhad;vin ah<br><br><br>kabcah oihaugaugcajkbc algughauklfgagahdcvadhck gadkyg kagfgakagukag kagfkagfakgfaugfagf aouga;fga;fheuofg afg<br>
+		fakbabjabvjabjahj<br>
+		fhahahaja<br>
+		jblabahahvk;ahviahvahvaivha<br>
+		jbfaljblajbljajbvajlbvajvbajlvbjlvbj<br><p>
+	</div>
+	<div class="results" name="results" id="results2">
+		<h2>Calculate</h2>
+		<iframe src="about:blank" seamless id="results">
+		</iframe>
+	</div>
+	<form action="/" method="post">
+      <div class="exp">
+      	<input type="text" name="expression" id="expression" class="expression" rows="1" autocomplete="off"></input>
+      </div>
+    </form>
+    <div id="slates" class="slates">
+    	<h2>My Sheets</h2>
+    	;ihihahahih<br>
+    	ihlgagugaggva<br>
+    	ljbajbcjlabjabaa
+    	najlbajbajvbajbabvba<br>
+    	vavaguaauh
+    </div>
+    <div id="help" class="help">
+    	<h2>Help</h2>
+    	;ihihahahih<br>
+    	ihlgagugaggva<br>
+    	ljbajbcjlabjabaa
+    	najlbajbajvbajbabvba<br>
+    	vavaguaauh
+    </div>
+    <div id="credits" class="credits">
+    	<h2>Credits</h2>
+    	;ihihahahih<br>
+    	ihlgagugaggva<br>
+    	ljbajbcjlabjabaa
+    	najlbajbajvbajbabvba<br>
+    	vavaguaauh
+    </div>
+    <footer>
+    	&copy 2013 Sai Priyatham. All Rights Reserved.
+    </footer>
+    <script type="text/javascript" src="/scripts/jquery.js"></script>
+    <script type="text/javascript" src="/scripts/index.js"></script>
+</body>
+</html>
+{% endautoescape %}
